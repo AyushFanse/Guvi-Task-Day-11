@@ -1,0 +1,248 @@
+body{
+    max-width: 100%;
+    height:auto;
+    padding-bottom: 60px;
+}
+
+/* Question 1 */
+.contain{    
+    width: 100%;
+    height:auto;
+}
+#Q1{
+    margin:auto;
+    display:grid;
+    justify-content:center;
+}
+
+/* Question 3 */
+#Q3{
+    min-width:300px;
+    max-width:60%;
+    border: 3px solid #000000;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding:15px;
+}
+#Q3Content{
+    width:auto;
+    padding:10px;
+    text-align: center;
+}
+#Q3Content input, #Q3Content textarea{
+    border:none;
+    border-bottom: 2px solid #000;
+}
+#Q3Content button{
+    background: rgb(3, 154, 255);
+    padding:5px 10px;
+    border-radius: 10px;
+    vertical-align: middle;
+}
+
+/* Question 7 */
+#Q7Body{
+    max-width:570px;
+    min-width:430px;
+    margin:auto;
+    height:auto;
+    background: white;
+    color: black;
+    border:4px solid #000;
+    font-size: 16px;
+}
+#Q7Head{
+    background-color: rgb(255, 0, 0);
+    text-align: center;
+    color: white;
+    margin: 10px;
+    font-size: 1.6rem;
+}
+@media (max-width: 768px) {
+    #Q7Head{
+        font-size: 1.4rem;
+    }
+}
+#Q7input{
+    border:none;
+    border-bottom: 2px solid #000;
+}
+#row1{
+    display:flex;
+    justify-content: center;
+    width:100%;
+}
+#rowIn1{
+    width:50%;
+    margin:0 15px;
+}
+#rowIn1 #Q7input{
+    width:100%;
+}
+#rowIn1 sup{
+    font-size:13px;
+}
+#row2{
+    display:flex;
+    justify-content: center;
+    width:100%;
+}
+#rowIn2{
+    width:100%;
+    margin:0 15px;
+}
+#rowIn2 #Q7input{
+    width:100%;
+}
+#rowIn2 sup{
+    font-size:13px;
+}
+#row3{
+    display:flex;
+    justify-content: center;
+    width:100%;
+}
+#rowIn3{
+    width:30%;
+    margin:0 15px;
+}
+#rowIn3 #Q7input{
+    width:100%;
+}
+#rowIn3 sup{
+    font-size:13px;
+}
+#row4{
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+}
+#rowIn4{
+    margin:auto;
+}
+#row5{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    margin: 15px;
+}
+
+/* Question 8 */
+.Q8contain{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#Q8Body{
+    width:600px;
+    margin:auto;
+    text-align:center;
+}
+.table{
+    border: 1px solid #000000;
+}
+.HeaderTable{
+    display:flex;  
+    justify-content: center;
+}
+.TableData{    
+    display:flex;    
+    justify-content: center;
+}
+#Q8H3{
+    padding-bottom: 15px;
+    margin:auto;
+}
+.first{
+    width: 100%;
+    border: 1px solid #000000;
+    width: 25%;
+    padding: 10px;
+    height:auto;
+}
+.first2{
+    width: 100%;
+    border: 1px solid #000000;
+    width: 29%;
+    height:auto;
+}
+.com{
+    border-top: 1px solid #000000;
+}
+.Max-Min{
+    display:flex;
+    justify-content: space-between;
+    border: 1px solid #000000;
+}
+.Min{
+     width: 50%;
+     padding:10px;
+ }
+.Max{
+     width: 50%;    
+     padding:10px;
+     border-left: 1px solid #000000;
+}
+.Eating{
+    border: 1px solid #000000;
+    padding:10px;
+}
+.first1{
+    width: 100%;
+    border: 1px solid #000000;
+    width: 58%; 
+}
+.value{
+    padding:10px;
+}
+
+/* Question 9 */
+.container{
+    margin: auto;
+    border: 3px solid #000000;
+    width:80%;
+}
+.container .DefaultInputs{
+    display:flex;
+    flex-direction:column;
+    margin: auto;    
+    width: 600px;
+}
+.container .DefaultInputs [type="color"]{
+    margin: auto;
+    width: 66px;
+}
+.container .DefaultInputs [type="button"]{
+    margin: auto;
+    width: 100px;    
+    background: rgb(3, 154, 255);
+    padding:5px 10px;
+    border-radius: 10px;
+    vertical-align: middle;
+}
+
+/* Question 11 */
+.container{
+    margin: auto;
+    border: 3px solid #000000;
+    width:80%;
+}
+.container .Q11DefaultInputs{
+    display:flex;
+    flex-direction:column;
+    margin: auto;    
+    padding: 30px 0;
+    width: 600px;
+}
+.form-outline{
+    padding: 10px 0;
+    margin:  auto;
+}
+.Q11DefaultInputs .upload{   
+    background: rgb(3, 154, 255);
+    padding:5px 10px;
+    border-radius: 10px;
+    vertical-align: middle;
+}
