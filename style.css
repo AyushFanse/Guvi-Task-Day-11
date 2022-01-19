@@ -140,9 +140,6 @@ body{
     margin:auto;
     text-align:center;
 }
-.table{
-    border: 1px solid #000000;
-}
 .HeaderTable{
     display:flex;  
     justify-content: center;
@@ -174,7 +171,8 @@ body{
 .Max-Min{
     display:flex;
     justify-content: space-between;
-    border: 1px solid #000000;
+    border-top: 2px solid #000000;
+    margin:-0.3px -2px;
 }
 .Min{
      width: 50%;
@@ -183,11 +181,11 @@ body{
 .Max{
      width: 50%;    
      padding:10px;
-     border-left: 1px solid #000000;
+     border-left: 2px solid #000000;
 }
 .Eating{
-    border: 1px solid #000000;
-    padding:10px;
+    border-top: 2px solid #000000;
+    padding:9px;
 }
 .first1{
     width: 100%;
@@ -207,6 +205,7 @@ body{
 .container .DefaultInputs{
     display:flex;
     flex-direction:column;
+    padding:40px 0;
     margin: auto;    
     width: 600px;
 }
@@ -218,7 +217,7 @@ body{
     margin: auto;
     width: 100px;    
     background: rgb(3, 154, 255);
-    padding:5px 10px;
+    padding:7px 10px;
     border-radius: 10px;
     vertical-align: middle;
 }
